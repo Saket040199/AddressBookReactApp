@@ -1,5 +1,6 @@
 {
   "name": "address-book",
+  "proxy": "http://45.456.200.5:7000/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
