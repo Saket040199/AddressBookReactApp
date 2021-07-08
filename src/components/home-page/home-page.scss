@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;1,500&display=swap');
+
+.body {
+  margin: 0;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 80%;
+  background-color: #f7f7f7;
+  padding: 30px 0 10px;
+  box-sizing: border-box;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+ // margin: 0 auto;
+  margin-top: 10px;
+  padding: 25px;
+}
+
+.heading {
+  font: normal normal bold 28px/30px Roboto;
+  letter-spacing: 0px;
+  color: #5560f8;
+  opacity: 1;
+}
+
+.add-count {
+    margin-left: 20px;
+  background-color: #5560f8;
+  color: #ffffff;
+  border-radius: 42%;
+  height: 30px;
+  width: 35px;
+  font-size: 20px;
+  width: 26px;
+  text-align: center;
+  display: inline-block;
+}
+.search-box {
+  position: relative;
+  margin-left: 53%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  border: 1px solid #ccc;
+  border-radius: 28px;
+  resize: vertical;
+  background: white;  
+}
+
+.search-input {
+  width: 35px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 28px;
+  resize: vertical;
+  z-index: 10;
+  transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  outline: none;
+  cursor: grab;
+}
+
+.search-icon {
+  width: fit-content;
+  align-items: center;
+  margin-bottom: 3%;
+}  
+
+.input-expand {
+  width: 120px;
+}
+
+.add-button {
+  font: normal normal normal 22px/29px Roboto;
+  color: #ffffff;
+  letter-spacing: 0px;
+  opacity: 1;
+  background: #5560f8 0% 0% no-repeat padding-box;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 18px;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  margin: auto;
+}
+
+.addIcon{
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.table-main {
+  width: 80%;
+  margin: 0 auto;
+  overflow: auto;
+}

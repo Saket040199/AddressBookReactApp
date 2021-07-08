@@ -1,0 +1,25 @@
+{
+    "addressBook": [
+        {
+            "id": 1,
+            "_name": "Saket",
+            "_email": "saketj@420gmail.com",
+            "_address": "chhatarpur",
+            "_city": "chhatarpur",
+            "_state": "MP",
+            "_zip": "471001",
+            "_phone": "7984562154"
+          },
+          {
+            "id": 2,
+            "_name": "Abhi",
+            "_email": "abhi@20gmail.com",
+            "_address": "chhatarpur",
+            "_city": "chhatarpur",
+            "_state": "MP",
+            "_zip": "471001",
+            "_phone": "7978562454"
+          }
+    
+    ]
+  }
